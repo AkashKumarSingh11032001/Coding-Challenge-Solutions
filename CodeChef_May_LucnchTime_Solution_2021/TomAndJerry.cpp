@@ -9,7 +9,7 @@ int main(){
     cin >> a >>b >>c >>d >>k;
 
     int dis = abs(a-c) + abs(b-d);
-    if(k >= dis && k%2 = dis%2){
+    if(k >= dis && k%2 == dis%2){
         cout << "Yes" <<endl;
     }
     else {
